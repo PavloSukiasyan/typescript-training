@@ -25,6 +25,4 @@ const originalString = "Hello, World!";
 const reversedString = reverseString(originalString);
 console.log(reversedString); // Outputs: "!dlroW ,olleH"
 
-
 const reverseStringArrow = (str: string): string => str.split('').reverse().join('');
-

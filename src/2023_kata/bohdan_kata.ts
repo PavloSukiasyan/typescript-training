@@ -35,6 +35,6 @@ function findRepeatedWords(input: string): Map<string, number> {
   return repeatedWords;
 }
 
-const input = "apple banana apple orange apple banana";
+const input = 'apple banana apple orange apple banana';
 const repeatedWords = findRepeatedWords(input);
 console.log(repeatedWords);

@@ -1,19 +1,14 @@
 {
-  "name": "typescript-training",
+  "name": "ts_code_examples",
   "version": "1.0.0",
-  "description": "Training after Understanding TypeScript Course Setup",
-  "main": "app.js",
+  "description": "training",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "typescript",
-    "training"
-  ],
-  "author": "Pavlo Sukiasyan",
+  "author": "Pavlo",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "prettier": "3.2.5"
   }
 }

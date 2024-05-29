@@ -12,7 +12,6 @@ export function multiplicationTable(size: number): number[][] {
   }
 
   return table;
-
 }
 
 console.log(multiplicationTable(3));

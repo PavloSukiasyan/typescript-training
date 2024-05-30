@@ -14,3 +14,5 @@ console.log('test1: ', isMirrored('aba'));
 console.log('test2: ', isMirrored('abaX'));
 console.log('test3: ', isMirrored('aba='));
 console.log('test4: ', isMirrored('is si'));
+console.log('test5: ', isMirrored('i i'));
+console.log('test6: ', isMirrored('A'));

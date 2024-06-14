@@ -15,7 +15,8 @@ Examples
  */
 
 export function order(words: string): string {
-  return words.split(' ')
+  return words
+    .split(' ')
     .sort((a, b) => {
       const aMatch = a.match(/\d/);
       const bMatch = b.match(/\d/);
@@ -29,4 +30,3 @@ export function order(words: string): string {
 
 console.log(order('is2 Thi1s T4est 3a'));
 console.log(order('"4of Fo1r pe6ople g3ood th5e the2"'));
-

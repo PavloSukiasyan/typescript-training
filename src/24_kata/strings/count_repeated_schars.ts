@@ -29,14 +29,15 @@ export function duplicateCount(text: string): number {
 console.log(`"ABBA" -> 2 # 'A' and 'B' each occur twice:`, duplicateCount('AABB'));
 console.log('"ABBACC" -> 3:', duplicateCount('AABBcc'));
 
-
 // solution from other dev
 export function duplicateCount2(text: string) {
-  const letterCollection = text.toLowerCase().split("");
+  const letterCollection = text.toLowerCase().split('');
   const uniqueLetters = new Set();
   const duplicateLetters = new Set();
-  
-  letterCollection.forEach((letter) => uniqueLetters.has(letter) ? duplicateLetters.add(letter): uniqueLetters.add(letter))
 
-  return duplicateLetters.size;  
-  }
+  letterCollection.forEach(letter =>
+    uniqueLetters.has(letter) ? duplicateLetters.add(letter) : uniqueLetters.add(letter)
+  );
+
+  return duplicateLetters.size;
+}

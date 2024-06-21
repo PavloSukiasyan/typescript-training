@@ -30,5 +30,5 @@ export default function isSquare(n: number): boolean {
   return Number.isInteger(Math.sqrt(n));
 }
 
-console.log(isSquare(5))
-console.log(isSquare(25))
+console.log(isSquare(5));
+console.log(isSquare(25));

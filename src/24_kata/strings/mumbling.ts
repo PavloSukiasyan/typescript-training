@@ -14,9 +14,12 @@ The parameter of accum is a string which includes only letters from a..z and A..
  */
 
 export function accum(s: string): string {
-  return s.split('').map((letter, index)=>{
-    return letter.toUpperCase()+letter.toLowerCase().repeat(index)
-  }).join('-');
-};
+  return s
+    .split('')
+    .map((letter, index) => {
+      return letter.toUpperCase() + letter.toLowerCase().repeat(index);
+    })
+    .join('-');
+}
 
-console.log(accum("RqaEzty"), "\nR-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy");
+console.log(accum('RqaEzty'), '\nR-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy');
